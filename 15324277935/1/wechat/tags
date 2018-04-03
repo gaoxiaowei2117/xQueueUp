@@ -1,0 +1,508 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Event	../wechat/KeFu_1.php	/^            $Event= $postObj->Event;$/;"	v
+Event	../wechat/TianTianQunFa.php	/^            $Event= $postObj->Event;$/;"	v
+Event	../wechat/WenDa.php	/^            $Event= $postObj->Event;$/;"	v
+Event	../wechat/wx_sample.php	/^            $Event= $postObj->Event;$/;"	v
+EventKey	../wechat/KeFu_1.php	/^            $EventKey= $postObj->EventKey;$/;"	v
+EventKey	../wechat/TianTianQunFa.php	/^            $EventKey= $postObj->EventKey;$/;"	v
+EventKey	../wechat/WenDa.php	/^            $EventKey= $postObj->EventKey;$/;"	v
+EventKey	../wechat/wx_sample.php	/^            $EventKey= $postObj->EventKey;$/;"	v
+MsgType	../wechat/KeFu_1.php	/^            $MsgType= $postObj->MsgType;$/;"	v
+MsgType	../wechat/TianTianQunFa.php	/^            $MsgType= $postObj->MsgType;$/;"	v
+MsgType	../wechat/WenDa.php	/^            $MsgType= $postObj->MsgType;$/;"	v
+MsgType	../wechat/wx_sample.php	/^            $MsgType= $postObj->MsgType;$/;"	v
+RX_TYPE	../wechat/index_bak.php	/^            $RX_TYPE = trim($postObj->MsgType);$/;"	v
+RX_TYPE	../wechat/jiaohao_demo.php	/^            $RX_TYPE = trim($postObj->MsgType);$/;"	v
+TOKEN	../wechat/KeFu_1.php	/^define("TOKEN", "weixin");$/;"	d
+TOKEN	../wechat/TianTianQunFa.php	/^define("TOKEN", "weixin");$/;"	d
+TOKEN	../wechat/WenDa.php	/^define("TOKEN", "weixin");$/;"	d
+TOKEN	../wechat/index_bak.php	/^define("TOKEN", "weixin");$/;"	d
+TOKEN	../wechat/jiaohao_demo.php	/^define("TOKEN", "weixin");$/;"	d
+TOKEN	../wechat/wx_sample.php	/^define("TOKEN", "weixin");$/;"	d
+a	../wechat/2-10.php	/^$a = curl_exec($ch);$/;"	v
+a	../wechat/2-2.php	/^$a=curl_exec($ch);\/\/将文件保存到变量$a$/;"	v
+a	../wechat/2-5.php	/^$a = curl_exec($ch);$/;"	v
+a	../wechat/5-8.php	/^$a=array("content"=>"{$contentStr}");$/;"	v
+a	../wechat/KeFu_1.php	/^                        $a=array("content"=>"{$contentStr}");$/;"	v
+a	../wechat/TianTianQunFa.php	/^                        $a=array("content"=>"{$contentStr}");$/;"	v
+a	../wechat/jiaohao2.php	/^$a=array("content"=>"{$contentStr}");$/;"	v
+a	../wechat/menu.php	/^$a = curl_exec($ch);$/;"	v
+a	../wechat/token.php	/^$a = curl_exec($ch);$/;"	v
+access_token	../wechat/2-2.php	/^$access_token = $strjson->access_token;\/\/获取access_token$/;"	v
+access_token	../wechat/2-5.php	/^$access_token = $strjson->access_token;$/;"	v
+access_token	../wechat/token.php	/^$access_token = $strjson->access_token;$/;"	v
+ans	../wechat/KeFu_1.php	/^                            $ans=$data[0][ans];$/;"	v
+ans	../wechat/TianTianQunFa.php	/^                            $ans=$data[0][ans];$/;"	v
+ans	../wechat/WenDa.php	/^                            $ans=$data[0][ans];$/;"	v
+appid	../wechat/2-10.php	/^$appid="wx68e166135164e3a7";\/\/填写AppID$/;"	v
+appid	../wechat/2-2.php	/^$appid="wx68e166135164e3a7";\/\/填写AppID$/;"	v
+appid	../wechat/2-5.php	/^$appid="wx68e166135164e3a7";$/;"	v
+appid	../wechat/menu.php	/^$appid="wx68e166135164e3a7";\/\/填写AppID$/;"	v
+appid	../wechat/token.php	/^$appid="wx68e166135164e3a7";$/;"	v
+b	../wechat/5-8.php	/^$b=array("touser"=>"{$fromUsername}","msgtype"=>"text","text"=>$a);$/;"	v
+b	../wechat/KeFu_1.php	/^                        $b=array("touser"=>"{$fromUsername}","msgtype"=>"text","text"=>$a);$/;"	v
+b	../wechat/TianTianQunFa.php	/^                        $b=array("touser"=>"{$fromUsername}","msgtype"=>"text","text"=>$a);$/;"	v
+b	../wechat/jiaohao2.php	/^$b=array("touser"=>"{$user}","msgtype"=>"text","text"=>$a);$/;"	v
+bytes_to_emoji	../wechat/index_bak.php	/^    function bytes_to_emoji($cp)$/;"	f
+bytes_to_emoji	../wechat/jiaohao_demo.php	/^    function bytes_to_emoji($cp)$/;"	f
+c	../wechat/jiaohao1.php	/^$c = new SaeCounter();$/;"	v
+c	../wechat/jiaohao2.php	/^$c = new SaeCounter();$/;"	v
+c	../wechat/jiaohao3.php	/^$c = new SaeCounter();$/;"	v
+c	../wechat/jiaohao_demo.php	/^                $c = new SaeCounter();\/\/读取计数器$/;"	v
+ch	../wechat/2-1.php	/^$ch=curl_init(); \/\/初始化$/;"	v
+ch	../wechat/2-10.php	/^$ch = curl_init();$/;"	v
+ch	../wechat/2-2.php	/^$ch = curl_init();$/;"	v
+ch	../wechat/2-3.php	/^$ch = curl_init();$/;"	v
+ch	../wechat/2-5.php	/^$ch = curl_init();$/;"	v
+ch	../wechat/2-6.php	/^$ch = curl_init();$/;"	v
+ch	../wechat/2-8.php	/^$ch = curl_init();$/;"	v
+ch	../wechat/5-8.php	/^$ch = curl_init();$/;"	v
+ch	../wechat/KeFu_1.php	/^                        $ch = curl_init();$/;"	v
+ch	../wechat/TianTianQunFa.php	/^                        $ch = curl_init();$/;"	v
+ch	../wechat/index_bak.php	/^        $ch = curl_init();$/;"	v
+ch	../wechat/jiaohao2.php	/^$ch = curl_init();$/;"	v
+ch	../wechat/jiaohao_demo.php	/^        $ch = curl_init();$/;"	v
+ch	../wechat/menu.php	/^$ch = curl_init();$/;"	v
+ch	../wechat/token.php	/^$ch = curl_init();$/;"	v
+change	../wechat/jiaohao2.php	/^$change=$_GET["change"];$/;"	v
+change	../wechat/jiaohao2.php	/^$change=intval($change);$/;"	v
+checkSignature	../wechat/KeFu_1.php	/^    private function checkSignature()$/;"	f
+checkSignature	../wechat/TianTianQunFa.php	/^    private function checkSignature()$/;"	f
+checkSignature	../wechat/WenDa.php	/^    private function checkSignature()$/;"	f
+checkSignature	../wechat/wx_sample.php	/^    private function checkSignature()$/;"	f
+codeValue	../wechat/index_bak.php	/^                    $codeValue = $codeinfo[1];$/;"	v
+codeValue	../wechat/jiaohao_demo.php	/^                $codeValue = $codeinfo[1];$/;"	v
+codeinfo	../wechat/index_bak.php	/^                    $codeinfo = explode(",",strval($object->ScanCodeInfo->ScanResult));$/;"	v
+codeinfo	../wechat/jiaohao_demo.php	/^                $codeinfo = explode(",",strval($object->ScanCodeInfo->ScanResult));$/;"	v
+content	../wechat/index_bak.php	/^                        $content = "点击菜单：".$object->EventKey;$/;"	v
+content	../wechat/index_bak.php	/^                        $content = array();$/;"	v
+content	../wechat/index_bak.php	/^                    $content = "扫码带提示：类型 ".$object->ScanCodeInfo->ScanType." 结果：".$object->ScanCodeInfo->ScanResult;$/;"	v
+content	../wechat/index_bak.php	/^                    $content = "扫码带提示：类型 二维码 结果：".$object->ScanCodeInfo->ScanResult;$/;"	v
+content	../wechat/index_bak.php	/^                    $content = "扫码带提示：类型 条形码 结果：".$codeValue;$/;"	v
+content	../wechat/index_bak.php	/^                $content = "receive a new event: ".$object->Event;$/;"	v
+content	../wechat/index_bak.php	/^                $content = "上传位置：纬度 ".$object->Latitude.";经度 ".$object->Longitude;$/;"	v
+content	../wechat/index_bak.php	/^                $content = "发送位置：标签 ".$object->SendLocationInfo->Label;$/;"	v
+content	../wechat/index_bak.php	/^                $content = "取消关注";$/;"	v
+content	../wechat/index_bak.php	/^                $content = "扫描场景 ".$object->EventKey;$/;"	v
+content	../wechat/index_bak.php	/^                $content = "扫码推事件";$/;"	v
+content	../wechat/index_bak.php	/^                $content = "拍照或者相册：数量 ".$object->SendPicsInfo->Count;$/;"	v
+content	../wechat/index_bak.php	/^                $content = "欢迎使用方倍工作室微信开发入门教程Demo\\n请回复以下关键字：文本 表情 单图文 多图文 音乐\\n请按住说话 或 点击 + 再分别发送以下内容：语音 图片 小视频 我的收藏 位置";$/;"	v
+content	../wechat/index_bak.php	/^                $content = "相册发图：数量 ".$object->SendPicsInfo->Count;$/;"	v
+content	../wechat/index_bak.php	/^                $content = "系统拍照";$/;"	v
+content	../wechat/index_bak.php	/^                $content = "跳转链接 ".$object->EventKey;$/;"	v
+content	../wechat/index_bak.php	/^            $content = "你刚才说的是：".$object->Recognition;$/;"	v
+content	../wechat/index_bak.php	/^            $content = "微笑：\/::)\\n乒乓：\/:oo\\n中国：".$this->bytes_to_emoji(0x1F1E8).$this->bytes_to_emoji(0x1F1F3)."\\n仙人掌：".$this->bytes_to_emoji(0x1F335);$/;"	v
+content	../wechat/index_bak.php	/^            $content = "这是个文本消息";$/;"	v
+content	../wechat/index_bak.php	/^            $content = array("MediaId"=>$object->MediaId);$/;"	v
+content	../wechat/index_bak.php	/^            $content = array("Title"=>"最炫民族风", "Description"=>"歌手：凤凰传奇", "MusicUrl"=>"http:\/\/mascot-music.stor.sinaapp.com\/zxmzf.mp3", "HQMusicUrl"=>"http:\/\/mascot-music.stor.sinaapp.com\/zxmzf.mp3"); $/;"	v
+content	../wechat/index_bak.php	/^            $content = array();$/;"	v
+content	../wechat/index_bak.php	/^            $content = date("Y-m-d H:i:s",time())."\\n\\n".'<a href="http:\/\/m.cnblogs.com\/?u=txw1958">技术支持 方倍工作室<\/a>';$/;"	v
+content	../wechat/index_bak.php	/^        $content = "";$/;"	v
+content	../wechat/index_bak.php	/^        $content = "上传视频类型：".$object->MsgType;$/;"	v
+content	../wechat/index_bak.php	/^        $content = "你发送的是位置，经度为：".$object->Location_Y."；纬度为：".$object->Location_X."；缩放级别为：".$object->Scale."；位置为：".$object->Label;$/;"	v
+content	../wechat/index_bak.php	/^        $content = "你发送的是链接，标题为：".$object->Title."；内容为：".$object->Description."；链接地址为：".$object->Url;$/;"	v
+content	../wechat/index_bak.php	/^        $content = array("MediaId"=>$object->MediaId);$/;"	v
+content	../wechat/jiaohao_demo.php	/^                $content = "扫码带提示：类型 ".$object->ScanCodeInfo->ScanType." 结果：".$object->ScanCodeInfo->ScanResult;$/;"	v
+content	../wechat/jiaohao_demo.php	/^                $content = "扫码带提示：类型 二维码 结果：".$object->ScanCodeInfo->ScanResult;$/;"	v
+content	../wechat/jiaohao_demo.php	/^                $content = "扫码带提示：类型 条形码 结果：".$codeValue;$/;"	v
+content	../wechat/jiaohao_demo.php	/^                $content = "点击菜单：".$object->EventKey;$/;"	v
+content	../wechat/jiaohao_demo.php	/^                $content = array();$/;"	v
+content	../wechat/jiaohao_demo.php	/^            $content = "receive a new event: ".$object->Event;$/;"	v
+content	../wechat/jiaohao_demo.php	/^            $content = "上传位置：纬度 ".$object->Latitude.";经度 ".$object->Longitude;$/;"	v
+content	../wechat/jiaohao_demo.php	/^            $content = "你刚才说的是：".$object->Recognition;$/;"	v
+content	../wechat/jiaohao_demo.php	/^            $content = "发送位置：标签 ".$object->SendLocationInfo->Label;$/;"	v
+content	../wechat/jiaohao_demo.php	/^            $content = "取消关注";$/;"	v
+content	../wechat/jiaohao_demo.php	/^            $content = "微笑：\/::)\\n乒乓：\/:oo\\n中国：".$this->bytes_to_emoji(0x1F1E8).$this->bytes_to_emoji(0x1F1F3)."\\n仙人掌：".$this->bytes_to_emoji(0x1F335);$/;"	v
+content	../wechat/jiaohao_demo.php	/^            $content = "扫描场景 ".$object->EventKey;$/;"	v
+content	../wechat/jiaohao_demo.php	/^            $content = "扫码推事件";$/;"	v
+content	../wechat/jiaohao_demo.php	/^            $content = "拍照或者相册：数量 ".$object->SendPicsInfo->Count;$/;"	v
+content	../wechat/jiaohao_demo.php	/^            $content = "欢迎使用高晓伟的测试服务号\\n请回复以下关键字：文本 表情 单图文 多图文 音乐\\n请按住说话 或 点击 + 再分别发送以下内容：语音 图片 小视频 我的收藏 位置";$/;"	v
+content	../wechat/jiaohao_demo.php	/^            $content = "相册发图：数量 ".$object->SendPicsInfo->Count;$/;"	v
+content	../wechat/jiaohao_demo.php	/^            $content = "系统拍照";$/;"	v
+content	../wechat/jiaohao_demo.php	/^            $content = "跳转链接 ".$object->EventKey;$/;"	v
+content	../wechat/jiaohao_demo.php	/^            $content = "这是个文本消息";$/;"	v
+content	../wechat/jiaohao_demo.php	/^            $content = array("MediaId"=>$object->MediaId);$/;"	v
+content	../wechat/jiaohao_demo.php	/^            $content = array("Title"=>"最炫民族风", "Description"=>"歌手：凤凰传奇", "MusicUrl"=>"http:\/\/mascot-music.stor.sinaapp.com\/zxmzf.mp3", "HQMusicUrl"=>"http:\/\/mascot-music.stor.sinaapp.com\/zxmzf.mp3"); $/;"	v
+content	../wechat/jiaohao_demo.php	/^            $content = array();$/;"	v
+content	../wechat/jiaohao_demo.php	/^            $content = date("Y-m-d H:i:s",time());$/;"	v
+content	../wechat/jiaohao_demo.php	/^        $content = "";$/;"	v
+content	../wechat/jiaohao_demo.php	/^        $content = "上传视频类型：".$object->MsgType;$/;"	v
+content	../wechat/jiaohao_demo.php	/^        $content = "你发送的是位置，经度为：".$object->Location_Y."；纬度为：".$object->Location_X."；缩放级别为：".$object->Scale."；位置为：".$object->Label;$/;"	v
+content	../wechat/jiaohao_demo.php	/^        $content = "你发送的是链接，标题为：".$object->Title."；内容为：".$object->Description."；链接地址为：".$object->Url;$/;"	v
+content	../wechat/jiaohao_demo.php	/^        $content = array("MediaId"=>$object->MediaId);$/;"	v
+contentStr	../wechat/5-8.php	/^$contentStr="天天可以群发";$/;"	v
+contentStr	../wechat/5-8.php	/^$contentStr=urlencode($contentStr);\/\/转码urlencode，避免JSON转码成Unicode$/;"	v
+contentStr	../wechat/KeFu_1.php	/^                        $contentStr="这是客服接口回复";$/;"	v
+contentStr	../wechat/KeFu_1.php	/^                        $contentStr=urlencode($contentStr);\/\/转码urlencode，避免JSON转码成Unicode$/;"	v
+contentStr	../wechat/TianTianQunFa.php	/^						$contentStr="这是客服接口回复";$/;"	v
+contentStr	../wechat/TianTianQunFa.php	/^				$contentStr = "互动记录";$/;"	v
+contentStr	../wechat/TianTianQunFa.php	/^				$contentStr = "加关注";$/;"	v
+contentStr	../wechat/TianTianQunFa.php	/^				$contentStr = "取消关注";$/;"	v
+contentStr	../wechat/TianTianQunFa.php	/^                        $contentStr=urlencode($contentStr);\/\/转码urlencode，避免JSON转码成Unicode$/;"	v
+contentStr	../wechat/jiaohao2.php	/^$contentStr="现在轮到你了，请尽快和服务员联系";$/;"	v
+contentStr	../wechat/jiaohao2.php	/^$contentStr=urlencode($contentStr);\/\/转码urlencode，避免JSON转码成Unicode$/;"	v
+data	../wechat/5-8.php	/^$data = $mysql->getData($sql);$/;"	v
+data	../wechat/KeFu_1.php	/^                                    $data = $mysql->getData($sql);$/;"	v
+data	../wechat/KeFu_1.php	/^                            $data = $mysql->getData($sql);$/;"	v
+data	../wechat/KeFu_1.php	/^                        $data = $mysql->getData($sql);$/;"	v
+data	../wechat/TianTianQunFa.php	/^                                    $data = $mysql->getData($sql);$/;"	v
+data	../wechat/TianTianQunFa.php	/^                            $data = $mysql->getData($sql);$/;"	v
+data	../wechat/TianTianQunFa.php	/^                        $data = $mysql->getData($sql);$/;"	v
+data	../wechat/WenDa.php	/^                                    $data = $mysql->getData($sql);$/;"	v
+data	../wechat/WenDa.php	/^                            $data = $mysql->getData($sql);$/;"	v
+data	../wechat/WenDa.php	/^                        $data = $mysql->getData($sql);$/;"	v
+data	../wechat/jiaohao2.php	/^$data = $mysql->getData($sql);$/;"	v
+data	../wechat/jiaohao_demo.php	/^                    $data = $mysql->getData($sql);$/;"	v
+data	../wechat/jiaohao_demo.php	/^                $data = $mysql->getData($sql);$/;"	v
+description	../wechat/jiaohao_demo.php	/^					$description="商家名称：\\n排队号码：".$id."号\\n前面等待：-辆\\n预计等待：-分钟\\n排队状态：已洗车\\n\\n".date("Y-m-d H:i:s",time());$/;"	v
+description	../wechat/jiaohao_demo.php	/^                    $description="商家名称：第一站\\n排队号码：".$id."号\\n前面等待：".$num."辆\\n预计等待：".$waitTime."分钟\\n排队状态：排队中\\n\\n".date("Y-m-d H:i:s",time());$/;"	v
+echoStr	../wechat/KeFu_1.php	/^        $echoStr = $_GET["echostr"];$/;"	v
+echoStr	../wechat/TianTianQunFa.php	/^        $echoStr = $_GET["echostr"];$/;"	v
+echoStr	../wechat/WenDa.php	/^        $echoStr = $_GET["echostr"];$/;"	v
+echoStr	../wechat/index_bak.php	/^        $echoStr = $_GET["echostr"];$/;"	v
+echoStr	../wechat/jiaohao_demo.php	/^        $echoStr = $_GET["echostr"];$/;"	v
+echoStr	../wechat/wx_sample.php	/^        $echoStr = $_GET["echostr"];$/;"	v
+flight	../wechat/2-3.php	/^$flight="CZ3109";\/\/查询航班号$/;"	v
+fromUsername	../wechat/KeFu_1.php	/^            $fromUsername = $postObj->FromUserName;$/;"	v
+fromUsername	../wechat/TianTianQunFa.php	/^            $fromUsername = $postObj->FromUserName;$/;"	v
+fromUsername	../wechat/WenDa.php	/^            $fromUsername = $postObj->FromUserName;$/;"	v
+fromUsername	../wechat/jiaohao_demo.php	/^                $fromUsername = $object->FromUserName;$/;"	v
+fromUsername	../wechat/wx_sample.php	/^            $fromUsername = $postObj->FromUserName;$/;"	v
+headers	../wechat/index_bak.php	/^        $headers = array("Content-Type: text\/xml; charset=utf-8");$/;"	v
+headers	../wechat/jiaohao_demo.php	/^        $headers = array("Content-Type: text\/xml; charset=utf-8");$/;"	v
+id	../wechat/jiaohao2.php	/^$id=$_GET["id"];$/;"	v
+id	../wechat/jiaohao2.php	/^$id=$data[0][id];$/;"	v
+id	../wechat/jiaohao_demo.php	/^                $id=$data[0][id];$/;"	v
+id	../wechat/jiaohao_demo.php	/^                $id=intval($id);$/;"	v
+itemTpl	../wechat/index_bak.php	/^        $itemTpl = "        <item>$/;"	v
+itemTpl	../wechat/index_bak.php	/^        $itemTpl = "<Image>$/;"	v
+itemTpl	../wechat/index_bak.php	/^        $itemTpl = "<Music>$/;"	v
+itemTpl	../wechat/index_bak.php	/^        $itemTpl = "<Video>$/;"	v
+itemTpl	../wechat/index_bak.php	/^        $itemTpl = "<Voice>$/;"	v
+itemTpl	../wechat/jiaohao_demo.php	/^        $itemTpl = "        <item>$/;"	v
+itemTpl	../wechat/jiaohao_demo.php	/^        $itemTpl = "<Image>$/;"	v
+itemTpl	../wechat/jiaohao_demo.php	/^        $itemTpl = "<Music>$/;"	v
+itemTpl	../wechat/jiaohao_demo.php	/^        $itemTpl = "<Video>$/;"	v
+itemTpl	../wechat/jiaohao_demo.php	/^        $itemTpl = "<Voice>$/;"	v
+item_str	../wechat/index_bak.php	/^        $item_str = "";$/;"	v
+item_str	../wechat/index_bak.php	/^        $item_str = sprintf($itemTpl, $imageArray['MediaId']);$/;"	v
+item_str	../wechat/index_bak.php	/^        $item_str = sprintf($itemTpl, $musicArray['Title'], $musicArray['Description'], $musicArray['MusicUrl'], $musicArray['HQMusicUrl']);$/;"	v
+item_str	../wechat/index_bak.php	/^        $item_str = sprintf($itemTpl, $videoArray['MediaId'], $videoArray['ThumbMediaId'], $videoArray['Title'], $videoArray['Description']);$/;"	v
+item_str	../wechat/index_bak.php	/^        $item_str = sprintf($itemTpl, $voiceArray['MediaId']);$/;"	v
+item_str	../wechat/jiaohao_demo.php	/^        $item_str = "";$/;"	v
+item_str	../wechat/jiaohao_demo.php	/^        $item_str = sprintf($itemTpl, $imageArray['MediaId']);$/;"	v
+item_str	../wechat/jiaohao_demo.php	/^        $item_str = sprintf($itemTpl, $musicArray['Title'], $musicArray['Description'], $musicArray['MusicUrl'], $musicArray['HQMusicUrl']);$/;"	v
+item_str	../wechat/jiaohao_demo.php	/^        $item_str = sprintf($itemTpl, $videoArray['MediaId'], $videoArray['ThumbMediaId'], $videoArray['Title'], $videoArray['Description']);$/;"	v
+item_str	../wechat/jiaohao_demo.php	/^        $item_str = sprintf($itemTpl, $voiceArray['MediaId']);$/;"	v
+jiao	../wechat/jiaohao1.php	/^$jiao=$c->get('jiao');$/;"	v
+jiao	../wechat/jiaohao_demo.php	/^                $jiao=$c->get('jiao');$/;"	v
+keyword	../wechat/KeFu_1.php	/^            $keyword = trim($postObj->Content);$/;"	v
+keyword	../wechat/TianTianQunFa.php	/^            $keyword = trim($postObj->Content);$/;"	v
+keyword	../wechat/WenDa.php	/^            $keyword = trim($postObj->Content);$/;"	v
+keyword	../wechat/index_bak.php	/^        $keyword = trim($object->Content);$/;"	v
+keyword	../wechat/jiaohao_demo.php	/^        $keyword = trim($object->Content);$/;"	v
+keyword	../wechat/wx_sample.php	/^            $keyword = trim($postObj->Content);$/;"	v
+log_filename	../wechat/index_bak.php	/^            $log_filename = "log.xml";$/;"	v
+log_filename	../wechat/jiaohao_demo.php	/^            $log_filename = "log.xml";$/;"	v
+logger	../wechat/index_bak.php	/^    private function logger($log_content)$/;"	f
+logger	../wechat/jiaohao_demo.php	/^    private function logger($log_content)$/;"	f
+max_size	../wechat/index_bak.php	/^            $max_size = 1000000;$/;"	v
+max_size	../wechat/jiaohao_demo.php	/^            $max_size = 1000000;$/;"	v
+menu	../wechat/KeFu_1.php	/^                                    $menu=memcache_get($mmc,$fromUsername);$/;"	v
+menu	../wechat/KeFu_1.php	/^                                $menu=$menu+1;$/;"	v
+menu	../wechat/KeFu_1.php	/^                        $menu=memcache_get($mmc,$fromUsername);$/;"	v
+menu	../wechat/TianTianQunFa.php	/^                                    $menu=memcache_get($mmc,$fromUsername);$/;"	v
+menu	../wechat/TianTianQunFa.php	/^                                $menu=$menu+1;$/;"	v
+menu	../wechat/TianTianQunFa.php	/^                        $menu=memcache_get($mmc,$fromUsername);$/;"	v
+menu	../wechat/WenDa.php	/^                                    $menu=memcache_get($mmc,$fromUsername);$/;"	v
+menu	../wechat/WenDa.php	/^                                $menu=$menu+1;$/;"	v
+menu	../wechat/WenDa.php	/^                        $menu=memcache_get($mmc,$fromUsername);$/;"	v
+mmc	../wechat/2-5.php	/^$mmc=memcache_init();\/\/初始化缓存$/;"	v
+mmc	../wechat/KeFu_1.php	/^            $mmc=memcache_init();\/\/初始化缓存$/;"	v
+mmc	../wechat/TianTianQunFa.php	/^            $mmc=memcache_init();\/\/初始化缓存$/;"	v
+mmc	../wechat/WenDa.php	/^            $mmc=memcache_init();\/\/初始化缓存$/;"	v
+mmc	../wechat/token.php	/^$mmc=memcache_init();\/\/初始化缓存$/;"	v
+msgType	../wechat/KeFu_1.php	/^                    $msgType = "text";$/;"	v
+msgType	../wechat/TianTianQunFa.php	/^                    $msgType = "text";$/;"	v
+msgType	../wechat/WenDa.php	/^                    $msgType = "text";$/;"	v
+msgType	../wechat/wx_sample.php	/^                $msgType = "text";$/;"	v
+mysql	../wechat/5-8.php	/^$mysql = new SaeMysql();\/\/sae内部类链接数据库$/;"	v
+mysql	../wechat/KeFu_1.php	/^                                    $mysql = new SaeMysql();$/;"	v
+mysql	../wechat/KeFu_1.php	/^                            $mysql = new SaeMysql();$/;"	v
+mysql	../wechat/KeFu_1.php	/^                        $mysql = new SaeMysql();$/;"	v
+mysql	../wechat/TianTianQunFa.php	/^                                    $mysql = new SaeMysql();$/;"	v
+mysql	../wechat/TianTianQunFa.php	/^                            $mysql = new SaeMysql();$/;"	v
+mysql	../wechat/TianTianQunFa.php	/^                        $mysql = new SaeMysql();$/;"	v
+mysql	../wechat/TianTianQunFa.php	/^            $mysql = new SaeMysql();\/\/SAE内部类链接数据库$/;"	v
+mysql	../wechat/WenDa.php	/^                                    $mysql = new SaeMysql();$/;"	v
+mysql	../wechat/WenDa.php	/^                            $mysql = new SaeMysql();$/;"	v
+mysql	../wechat/WenDa.php	/^                        $mysql = new SaeMysql();$/;"	v
+mysql	../wechat/jiaohao2.php	/^$mysql = new SaeMysql();$/;"	v
+mysql	../wechat/jiaohao3.php	/^$mysql = new SaeMysql();$/;"	v
+mysql	../wechat/jiaohao_demo.php	/^            $mysql = new SaeMysql();\/\/SAE内部类链接数据库$/;"	v
+mysql	../wechat/jiaohao_demo.php	/^        $mysql = new SaeMysql();\/\/SAE内部类链接数据库$/;"	v
+nonce	../wechat/KeFu_1.php	/^        $nonce = $_GET["nonce"];$/;"	v
+nonce	../wechat/TianTianQunFa.php	/^        $nonce = $_GET["nonce"];$/;"	v
+nonce	../wechat/WenDa.php	/^        $nonce = $_GET["nonce"];$/;"	v
+nonce	../wechat/index_bak.php	/^        $nonce = $_GET["nonce"];$/;"	v
+nonce	../wechat/jiaohao_demo.php	/^        $nonce = $_GET["nonce"];$/;"	v
+nonce	../wechat/wx_sample.php	/^        $nonce = $_GET["nonce"];$/;"	v
+num	../wechat/jiaohao2.php	/^$num=$c->get('jiao');$/;"	v
+num	../wechat/jiaohao_demo.php	/^                $num=$id-$jiao-1;$/;"	v
+output	../wechat/index_bak.php	/^        $output = curl_exec($ch);$/;"	v
+output	../wechat/jiaohao_demo.php	/^        $output = curl_exec($ch);$/;"	v
+post	../wechat/2-10.php	/^$post='$/;"	v
+post	../wechat/2-3.php	/^$post="queryType=flightNum&flightNum={$flight}";  \/\/POST提交内容$/;"	v
+post	../wechat/2-6.php	/^$post='{$/;"	v
+post	../wechat/5-8.php	/^$post=json_encode($b);$/;"	v
+post	../wechat/5-8.php	/^$post=urldecode($post);\/\/解码$/;"	v
+post	../wechat/KeFu_1.php	/^                        $post=json_encode($b);$/;"	v
+post	../wechat/KeFu_1.php	/^                        $post=urldecode($post);\/\/解码$/;"	v
+post	../wechat/TianTianQunFa.php	/^                        $post=json_encode($b);$/;"	v
+post	../wechat/TianTianQunFa.php	/^                        $post=urldecode($post);\/\/解码$/;"	v
+post	../wechat/jiaohao2.php	/^$post=json_encode($b);$/;"	v
+post	../wechat/jiaohao2.php	/^$post=urldecode($post);\/\/解码$/;"	v
+post	../wechat/menu.php	/^$post='$/;"	v
+postObj	../wechat/KeFu_1.php	/^            $postObj = simplexml_load_string($postStr,$/;"	v
+postObj	../wechat/TianTianQunFa.php	/^            $postObj = simplexml_load_string($postStr,$/;"	v
+postObj	../wechat/WenDa.php	/^            $postObj = simplexml_load_string($postStr,$/;"	v
+postObj	../wechat/index_bak.php	/^            $postObj = simplexml_load_string($postStr, 'SimpleXMLElement', LIBXML_NOCDATA);$/;"	v
+postObj	../wechat/jiaohao_demo.php	/^            $postObj = simplexml_load_string($postStr, 'SimpleXMLElement', LIBXML_NOCDATA);$/;"	v
+postObj	../wechat/wx_sample.php	/^            $postObj = simplexml_load_string($postStr,$/;"	v
+postStr	../wechat/KeFu_1.php	/^        $postStr = $GLOBALS["HTTP_RAW_POST_DATA"];$/;"	v
+postStr	../wechat/TianTianQunFa.php	/^        $postStr = $GLOBALS["HTTP_RAW_POST_DATA"];$/;"	v
+postStr	../wechat/WenDa.php	/^        $postStr = $GLOBALS["HTTP_RAW_POST_DATA"];$/;"	v
+postStr	../wechat/index_bak.php	/^        $postStr = $GLOBALS["HTTP_RAW_POST_DATA"];$/;"	v
+postStr	../wechat/jiaohao_demo.php	/^        $postStr = $GLOBALS["HTTP_RAW_POST_DATA"];$/;"	v
+postStr	../wechat/wx_sample.php	/^        $postStr = $GLOBALS["HTTP_RAW_POST_DATA"];$/;"	v
+que	../wechat/KeFu_1.php	/^                                    $que=$data[0][que];$/;"	v
+que	../wechat/KeFu_1.php	/^                        $que=$data[0][que];$/;"	v
+que	../wechat/TianTianQunFa.php	/^                                    $que=$data[0][que];$/;"	v
+que	../wechat/TianTianQunFa.php	/^                        $que=$data[0][que];$/;"	v
+que	../wechat/WenDa.php	/^                                    $que=$data[0][que];$/;"	v
+que	../wechat/WenDa.php	/^                        $que=$data[0][que];$/;"	v
+receiveEvent	../wechat/index_bak.php	/^    private function receiveEvent($object)$/;"	f
+receiveEvent	../wechat/jiaohao_demo.php	/^    private function receiveEvent($object)$/;"	f
+receiveImage	../wechat/index_bak.php	/^    private function receiveImage($object)$/;"	f
+receiveImage	../wechat/jiaohao_demo.php	/^    private function receiveImage($object)$/;"	f
+receiveLink	../wechat/index_bak.php	/^    private function receiveLink($object)$/;"	f
+receiveLink	../wechat/jiaohao_demo.php	/^    private function receiveLink($object)$/;"	f
+receiveLocation	../wechat/index_bak.php	/^    private function receiveLocation($object)$/;"	f
+receiveLocation	../wechat/jiaohao_demo.php	/^    private function receiveLocation($object)$/;"	f
+receiveText	../wechat/index_bak.php	/^    private function receiveText($object)$/;"	f
+receiveText	../wechat/jiaohao_demo.php	/^    private function receiveText($object)$/;"	f
+receiveVideo	../wechat/index_bak.php	/^    private function receiveVideo($object)$/;"	f
+receiveVideo	../wechat/jiaohao_demo.php	/^    private function receiveVideo($object)$/;"	f
+receiveVoice	../wechat/index_bak.php	/^    private function receiveVoice($object)$/;"	f
+receiveVoice	../wechat/jiaohao_demo.php	/^    private function receiveVoice($object)$/;"	f
+relayPart3	../wechat/index_bak.php	/^    private function relayPart3($url, $rawData)$/;"	f
+relayPart3	../wechat/jiaohao_demo.php	/^    private function relayPart3($url, $rawData)$/;"	f
+reply	../wechat/KeFu_1.php	/^                                    $reply="答对了，第".$menu."题：".$que;$/;"	v
+reply	../wechat/KeFu_1.php	/^                                    $reply="答对了，题目已结束";$/;"	v
+reply	../wechat/KeFu_1.php	/^                                $reply="答错了";$/;"	v
+reply	../wechat/KeFu_1.php	/^                            $reply="点击开始答题";$/;"	v
+reply	../wechat/KeFu_1.php	/^                        $reply="第1题：".$que;$/;"	v
+reply	../wechat/TianTianQunFa.php	/^                                    $reply="答对了，第".$menu."题：".$que;$/;"	v
+reply	../wechat/TianTianQunFa.php	/^                                    $reply="答对了，题目已结束";$/;"	v
+reply	../wechat/TianTianQunFa.php	/^                                $reply="答错了";$/;"	v
+reply	../wechat/TianTianQunFa.php	/^                            $reply="点击开始答题";$/;"	v
+reply	../wechat/TianTianQunFa.php	/^                        $reply="第1题：".$que;$/;"	v
+reply	../wechat/WenDa.php	/^                                    $reply="答对了，第".$menu."题：".$que;$/;"	v
+reply	../wechat/WenDa.php	/^                                    $reply="答对了，题目已结束";$/;"	v
+reply	../wechat/WenDa.php	/^                                $reply="答错了";$/;"	v
+reply	../wechat/WenDa.php	/^                            $reply="点击开始答题";$/;"	v
+reply	../wechat/WenDa.php	/^                        $reply="第1题：".$que;$/;"	v
+responseMsg	../wechat/KeFu_1.php	/^    public function responseMsg()$/;"	f
+responseMsg	../wechat/TianTianQunFa.php	/^    public function responseMsg()$/;"	f
+responseMsg	../wechat/WenDa.php	/^    public function responseMsg()$/;"	f
+responseMsg	../wechat/index_bak.php	/^    public function responseMsg()$/;"	f
+responseMsg	../wechat/jiaohao_demo.php	/^    public function responseMsg()$/;"	f
+responseMsg	../wechat/wx_sample.php	/^    public function responseMsg()$/;"	f
+result	../wechat/index_bak.php	/^                    $result = "unknown msg type: ".$RX_TYPE;$/;"	v
+result	../wechat/index_bak.php	/^                    $result = $this->receiveEvent($postObj);$/;"	v
+result	../wechat/index_bak.php	/^                    $result = $this->receiveImage($postObj);$/;"	v
+result	../wechat/index_bak.php	/^                    $result = $this->receiveLink($postObj);$/;"	v
+result	../wechat/index_bak.php	/^                    $result = $this->receiveLocation($postObj);$/;"	v
+result	../wechat/index_bak.php	/^                    $result = $this->receiveText($postObj);$/;"	v
+result	../wechat/index_bak.php	/^                    $result = $this->receiveVideo($postObj);$/;"	v
+result	../wechat/index_bak.php	/^                    $result = $this->receiveVoice($postObj);$/;"	v
+result	../wechat/index_bak.php	/^                $result = $this->transmitMusic($object, $content);$/;"	v
+result	../wechat/index_bak.php	/^                $result = $this->transmitNews($object, $content);$/;"	v
+result	../wechat/index_bak.php	/^            $result = $this->transmitNews($object, $content);$/;"	v
+result	../wechat/index_bak.php	/^            $result = $this->transmitService($object);$/;"	v
+result	../wechat/index_bak.php	/^            $result = $this->transmitText($object, $content);$/;"	v
+result	../wechat/index_bak.php	/^            $result = $this->transmitVoice($object, $content);$/;"	v
+result	../wechat/index_bak.php	/^        $result = $this->transmitImage($object, $content);$/;"	v
+result	../wechat/index_bak.php	/^        $result = $this->transmitText($object, $content);$/;"	v
+result	../wechat/index_bak.php	/^        $result = sprintf($xmlTpl, $object->FromUserName, $object->ToUserName, time());$/;"	v
+result	../wechat/index_bak.php	/^        $result = sprintf($xmlTpl, $object->FromUserName, $object->ToUserName, time(), $content);$/;"	v
+result	../wechat/index_bak.php	/^        $result = sprintf($xmlTpl, $object->FromUserName, $object->ToUserName, time(), count($newsArray));$/;"	v
+result	../wechat/jiaohao_demo.php	/^                $result = "unknown msg type: ".$RX_TYPE;$/;"	v
+result	../wechat/jiaohao_demo.php	/^                $result = $this->receiveEvent($postObj);$/;"	v
+result	../wechat/jiaohao_demo.php	/^                $result = $this->receiveImage($postObj);$/;"	v
+result	../wechat/jiaohao_demo.php	/^                $result = $this->receiveLink($postObj);$/;"	v
+result	../wechat/jiaohao_demo.php	/^                $result = $this->receiveLocation($postObj);$/;"	v
+result	../wechat/jiaohao_demo.php	/^                $result = $this->receiveText($postObj);$/;"	v
+result	../wechat/jiaohao_demo.php	/^                $result = $this->receiveVideo($postObj);$/;"	v
+result	../wechat/jiaohao_demo.php	/^                $result = $this->receiveVoice($postObj);$/;"	v
+result	../wechat/jiaohao_demo.php	/^                $result = $this->transmitMusic($object, $content);$/;"	v
+result	../wechat/jiaohao_demo.php	/^                $result = $this->transmitNews($object, $content);$/;"	v
+result	../wechat/jiaohao_demo.php	/^            $result = $this->transmitNews($object, $content);$/;"	v
+result	../wechat/jiaohao_demo.php	/^            $result = $this->transmitService($object);$/;"	v
+result	../wechat/jiaohao_demo.php	/^            $result = $this->transmitText($object, $content);$/;"	v
+result	../wechat/jiaohao_demo.php	/^            $result = $this->transmitVoice($object, $content);$/;"	v
+result	../wechat/jiaohao_demo.php	/^        $result = $this->transmitImage($object, $content);$/;"	v
+result	../wechat/jiaohao_demo.php	/^        $result = $this->transmitText($object, $content);$/;"	v
+result	../wechat/jiaohao_demo.php	/^        $result = sprintf($xmlTpl, $object->FromUserName, $object->ToUserName, time());$/;"	v
+result	../wechat/jiaohao_demo.php	/^        $result = sprintf($xmlTpl, $object->FromUserName, $object->ToUserName, time(), $content);$/;"	v
+result	../wechat/jiaohao_demo.php	/^        $result = sprintf($xmlTpl, $object->FromUserName, $object->ToUserName, time(), count($newsArray));$/;"	v
+resultStr	../wechat/KeFu_1.php	/^                    $resultStr = sprintf($textTpl, $fromUsername,$toUsername, $time, $msgType, $reply);$/;"	v
+resultStr	../wechat/TianTianQunFa.php	/^					$resultStr = sprintf($textTpl, $fromUsername,$toUsername, $time, $msgType, $reply);$/;"	v
+resultStr	../wechat/WenDa.php	/^                    $resultStr = sprintf($textTpl, $fromUsername,$toUsername, $time, $msgType, $reply);$/;"	v
+resultStr	../wechat/wx_sample.php	/^                $resultStr = sprintf($textTpl, $fromUsername,$/;"	v
+secret	../wechat/2-10.php	/^$secret="c0f5baf972995dcd8ae0ba7e5fd05de8";\/\/填写Secret$/;"	v
+secret	../wechat/2-2.php	/^$secret="c0f5baf972995dcd8ae0ba7e5fd05de8";\/\/填写Secret$/;"	v
+secret	../wechat/2-5.php	/^$secret="c0f5baf972995dcd8ae0ba7e5fd05de8";$/;"	v
+secret	../wechat/menu.php	/^$secret="c0f5baf972995dcd8ae0ba7e5fd05de8";\/\/填写Secret$/;"	v
+secret	../wechat/token.php	/^$secret="c0f5baf972995dcd8ae0ba7e5fd05de8";$/;"	v
+signature	../wechat/KeFu_1.php	/^        $signature = $_GET["signature"];$/;"	v
+signature	../wechat/TianTianQunFa.php	/^        $signature = $_GET["signature"];$/;"	v
+signature	../wechat/WenDa.php	/^        $signature = $_GET["signature"];$/;"	v
+signature	../wechat/index_bak.php	/^        $signature = $_GET["signature"];$/;"	v
+signature	../wechat/jiaohao_demo.php	/^        $signature = $_GET["signature"];$/;"	v
+signature	../wechat/wx_sample.php	/^        $signature = $_GET["signature"];$/;"	v
+sql	../wechat/5-8.php	/^$sql = "select `openid` FROM `user` WHERE '{$time}'<`time`";$/;"	v
+sql	../wechat/KeFu_1.php	/^                                    $sql="SELECT * FROM `quiz` where `id`= '{$menu}'";$/;"	v
+sql	../wechat/KeFu_1.php	/^                            $sql="SELECT * FROM `quiz` where `id`= '{$menu}'";$/;"	v
+sql	../wechat/KeFu_1.php	/^                        $sql="SELECT * FROM `quiz` where `id`= '{$menu}'";$/;"	v
+sql	../wechat/TianTianQunFa.php	/^				$sql ="INSERT INTO  `user` (`id` ,`openid` ,`time`)VALUES ($/;"	v
+sql	../wechat/TianTianQunFa.php	/^                                    $sql="SELECT * FROM `quiz` where `id`= '{$menu}'";$/;"	v
+sql	../wechat/TianTianQunFa.php	/^                            $sql="SELECT * FROM `quiz` where `id`= '{$menu}'";$/;"	v
+sql	../wechat/TianTianQunFa.php	/^                        $sql="SELECT * FROM `quiz` where `id`= '{$menu}'";$/;"	v
+sql	../wechat/TianTianQunFa.php	/^                $sql = "DELETE FROM `user` WHERE `openid`='{$fromUsername}'";$/;"	v
+sql	../wechat/TianTianQunFa.php	/^                $sql="UPDATE `user` SET `time`='{$time}'where `openid`=$/;"	v
+sql	../wechat/WenDa.php	/^                                    $sql="SELECT * FROM `quiz` where `id`= '{$menu}'";$/;"	v
+sql	../wechat/WenDa.php	/^                            $sql="SELECT * FROM `quiz` where `id`= '{$menu}'";$/;"	v
+sql	../wechat/WenDa.php	/^                        $sql="SELECT * FROM `quiz` where `id`= '{$menu}'";$/;"	v
+sql	../wechat/jiaohao2.php	/^$sql="SELECT * FROM `jiaohao` where `id`= '{$num}'";$/;"	v
+sql	../wechat/jiaohao3.php	/^$sql="truncate table`jiaohao`";$/;"	v
+sql	../wechat/jiaohao_demo.php	/^                    $sql="INSERT INTO `jiaohao` (`id` ,`openid`)VALUES (NULL,'{$fromUsername}')";$/;"	v
+sql	../wechat/jiaohao_demo.php	/^                    $sql="SELECT * FROM `jiaohao` where `openid` = '{$fromUsername}'";$/;"	v
+sql	../wechat/jiaohao_demo.php	/^                $sql="SELECT * FROM `jiaohao` where `openid`= '{$fromUsername}'";$/;"	v
+sql	../wechat/jiaohao_demo.php	/^            $sql = "DELETE FROM `user` WHERE `openid`='{$object->FromUserName}'";$/;"	v
+sql	../wechat/jiaohao_demo.php	/^            $sql ="INSERT INTO  `user` (`id` ,`openid` ,`time`)VALUES (NULL ,  '{$object->FromUserName}',  '{$time}')";$/;"	v
+sql	../wechat/jiaohao_demo.php	/^        $sql="UPDATE `user` SET `time`='{$time}'where `openid`='{$object->FromUserName}'";$/;"	v
+strjson	../wechat/2-10.php	/^$strjson=json_decode($a);$/;"	v
+strjson	../wechat/2-2.php	/^$strjson=json_decode($a);\/\/JSON解析$/;"	v
+strjson	../wechat/2-5.php	/^$strjson=json_decode($a);$/;"	v
+strjson	../wechat/menu.php	/^$strjson=json_decode($a);$/;"	v
+strjson	../wechat/token.php	/^$strjson=json_decode($a);$/;"	v
+success	../wechat/jiaohao1.php	/^success: function(data){$/;"	j
+textTpl	../wechat/KeFu_1.php	/^                        $textTpl = "<xml>$/;"	v
+textTpl	../wechat/KeFu_1.php	/^            $textTpl = "<xml>$/;"	v
+textTpl	../wechat/TianTianQunFa.php	/^            $textTpl = "<xml>$/;"	v
+textTpl	../wechat/WenDa.php	/^            $textTpl = "<xml>$/;"	v
+textTpl	../wechat/wx_sample.php	/^            $textTpl = "<xml>$/;"	v
+time	../wechat/5-8.php	/^$time = time()-172800;\/\/当前时间-48小时（172 800秒）$/;"	v
+time	../wechat/KeFu_1.php	/^            $time = time();$/;"	v
+time	../wechat/TianTianQunFa.php	/^            $time = time();$/;"	v
+time	../wechat/WenDa.php	/^            $time = time();$/;"	v
+time	../wechat/jiaohao_demo.php	/^            $time = time();$/;"	v
+time	../wechat/jiaohao_demo.php	/^        $time = time();$/;"	v
+time	../wechat/wx_sample.php	/^            $time = time();$/;"	v
+timestamp	../wechat/KeFu_1.php	/^        $timestamp = $_GET["timestamp"];$/;"	v
+timestamp	../wechat/TianTianQunFa.php	/^        $timestamp = $_GET["timestamp"];$/;"	v
+timestamp	../wechat/WenDa.php	/^        $timestamp = $_GET["timestamp"];$/;"	v
+timestamp	../wechat/index_bak.php	/^        $timestamp = $_GET["timestamp"];$/;"	v
+timestamp	../wechat/jiaohao_demo.php	/^        $timestamp = $_GET["timestamp"];$/;"	v
+timestamp	../wechat/wx_sample.php	/^        $timestamp = $_GET["timestamp"];$/;"	v
+tmpArr	../wechat/KeFu_1.php	/^        $tmpArr = array($token, $timestamp, $nonce);$/;"	v
+tmpArr	../wechat/TianTianQunFa.php	/^        $tmpArr = array($token, $timestamp, $nonce);$/;"	v
+tmpArr	../wechat/WenDa.php	/^        $tmpArr = array($token, $timestamp, $nonce);$/;"	v
+tmpArr	../wechat/index_bak.php	/^        $tmpArr = array($token, $timestamp, $nonce);$/;"	v
+tmpArr	../wechat/jiaohao_demo.php	/^        $tmpArr = array($token, $timestamp, $nonce);$/;"	v
+tmpArr	../wechat/wx_sample.php	/^        $tmpArr = array($token, $timestamp, $nonce);$/;"	v
+tmpStr	../wechat/KeFu_1.php	/^        $tmpStr = implode( $tmpArr );$/;"	v
+tmpStr	../wechat/KeFu_1.php	/^        $tmpStr = sha1( $tmpStr );$/;"	v
+tmpStr	../wechat/TianTianQunFa.php	/^        $tmpStr = implode( $tmpArr );$/;"	v
+tmpStr	../wechat/TianTianQunFa.php	/^        $tmpStr = sha1( $tmpStr );$/;"	v
+tmpStr	../wechat/WenDa.php	/^        $tmpStr = implode( $tmpArr );$/;"	v
+tmpStr	../wechat/WenDa.php	/^        $tmpStr = sha1( $tmpStr );$/;"	v
+tmpStr	../wechat/index_bak.php	/^        $tmpStr = implode($tmpArr);$/;"	v
+tmpStr	../wechat/index_bak.php	/^        $tmpStr = sha1($tmpStr);$/;"	v
+tmpStr	../wechat/jiaohao_demo.php	/^        $tmpStr = implode($tmpArr);$/;"	v
+tmpStr	../wechat/jiaohao_demo.php	/^        $tmpStr = sha1($tmpStr);$/;"	v
+tmpStr	../wechat/wx_sample.php	/^        $tmpStr = implode( $tmpArr );$/;"	v
+tmpStr	../wechat/wx_sample.php	/^        $tmpStr = sha1( $tmpStr );$/;"	v
+toUsername	../wechat/KeFu_1.php	/^            $toUsername = $postObj->ToUserName;$/;"	v
+toUsername	../wechat/TianTianQunFa.php	/^            $toUsername = $postObj->ToUserName;$/;"	v
+toUsername	../wechat/WenDa.php	/^            $toUsername = $postObj->ToUserName;$/;"	v
+toUsername	../wechat/wx_sample.php	/^            $toUsername = $postObj->ToUserName;$/;"	v
+token	../wechat/2-10.php	/^$token = $strjson->access_token;\/\/获取Token$/;"	v
+token	../wechat/2-5.php	/^$token=memcache_get($mmc,"token");\/\/获取Token$/;"	v
+token	../wechat/KeFu_1.php	/^        $token = TOKEN;$/;"	v
+token	../wechat/TianTianQunFa.php	/^        $token = TOKEN;$/;"	v
+token	../wechat/WenDa.php	/^        $token = TOKEN;$/;"	v
+token	../wechat/index_bak.php	/^        $token = TOKEN;$/;"	v
+token	../wechat/jiaohao_demo.php	/^        $token = TOKEN;$/;"	v
+token	../wechat/menu.php	/^$token = $strjson->access_token;\/\/获取Token$/;"	v
+token	../wechat/token.php	/^$token=memcache_get($mmc,"token");\/\/获取Token$/;"	v
+token	../wechat/wx_sample.php	/^        $token = TOKEN;$/;"	v
+transmitImage	../wechat/index_bak.php	/^    private function transmitImage($object, $imageArray)$/;"	f
+transmitImage	../wechat/jiaohao_demo.php	/^    private function transmitImage($object, $imageArray)$/;"	f
+transmitMusic	../wechat/index_bak.php	/^    private function transmitMusic($object, $musicArray)$/;"	f
+transmitMusic	../wechat/jiaohao_demo.php	/^    private function transmitMusic($object, $musicArray)$/;"	f
+transmitNews	../wechat/index_bak.php	/^    private function transmitNews($object, $newsArray)$/;"	f
+transmitNews	../wechat/jiaohao_demo.php	/^    private function transmitNews($object, $newsArray)$/;"	f
+transmitService	../wechat/index_bak.php	/^    private function transmitService($object)$/;"	f
+transmitService	../wechat/jiaohao_demo.php	/^    private function transmitService($object)$/;"	f
+transmitText	../wechat/index_bak.php	/^    private function transmitText($object, $content)$/;"	f
+transmitText	../wechat/jiaohao_demo.php	/^    private function transmitText($object, $content)$/;"	f
+transmitVideo	../wechat/index_bak.php	/^    private function transmitVideo($object, $videoArray)$/;"	f
+transmitVideo	../wechat/jiaohao_demo.php	/^    private function transmitVideo($object, $videoArray)$/;"	f
+transmitVoice	../wechat/index_bak.php	/^    private function transmitVoice($object, $voiceArray)$/;"	f
+transmitVoice	../wechat/jiaohao_demo.php	/^    private function transmitVoice($object, $voiceArray)$/;"	f
+updateUserTime	../wechat/jiaohao_demo.php	/^    private function updateUserTime($object)$/;"	f
+url	../wechat/2-1.php	/^$url="http:\/\/www.baidu.com";\/\/设置抓取URL地址$/;"	v
+url	../wechat/2-10.php	/^$url = "https:\/\/api.weixin.qq.com\/cgi-bin\/menu\/create?access_token={$token}";$/;"	v
+url	../wechat/2-10.php	/^$url = "https:\/\/api.weixin.qq.com\/cgi-bin\/token?grant_type=client_credential&appid={$appid}&secret={$secret}";$/;"	v
+url	../wechat/2-2.php	/^$url = "https:\/\/api.weixin.qq.com\/cgi-bin\/token?grant_type=client_credential&appid={$appid}&secret={$secret}";$/;"	v
+url	../wechat/2-3.php	/^$url = "http:\/\/eb.csair.com\/flightQuery\/fltQueryETicketResultN.jsp";$/;"	v
+url	../wechat/2-5.php	/^$url = "https:\/\/api.weixin.qq.com\/cgi-bin\/token?grant_type=client_credential&appid={$appid}&secret={$secret}";$/;"	v
+url	../wechat/2-6.php	/^$url = "https:\/\/api.weixin.qq.com\/cgi-bin\/menu\/create?access_token={$token}";$/;"	v
+url	../wechat/2-8.php	/^$url = "https:\/\/api.weixin.qq.com\/cgi-bin\/menu\/delete?access_token={$token}";$/;"	v
+url	../wechat/5-8.php	/^$url = "https:\/\/api.weixin.qq.com\/cgi-bin\/message\/custom\/send?access_token={$token}";$/;"	v
+url	../wechat/KeFu_1.php	/^                        $url = "https:\/\/api.weixin.qq.com\/cgi-bin\/message\/custom\/send?access_token={$token}";$/;"	v
+url	../wechat/TianTianQunFa.php	/^                        $url = "https:\/\/api.weixin.qq.com\/cgi-bin\/message\/custom\/send?access_token={$token}";$/;"	v
+url	../wechat/jiaohao2.php	/^$url = "https:\/\/api.weixin.qq.com\/cgi-bin\/message\/custom\/send?access_token={$token}";$/;"	v
+url	../wechat/menu.php	/^$url = "https:\/\/api.weixin.qq.com\/cgi-bin\/menu\/create?access_token={$token}";$/;"	v
+url	../wechat/menu.php	/^$url = "https:\/\/api.weixin.qq.com\/cgi-bin\/token?grant_type=client_credential&appid={$appid}&secret={$secret}";$/;"	v
+url	../wechat/token.php	/^$url = "https:\/\/api.weixin.qq.com\/cgi-bin\/token?grant_type=client_credential&appid={$appid}&secret={$secret}";$/;"	v
+user	../wechat/jiaohao2.php	/^$user=$data[0][openid];$/;"	v
+user	../wechat/jiaohao_demo.php	/^                $user=$data[0][openid];$/;"	v
+valid	../wechat/KeFu_1.php	/^    public function valid()$/;"	f
+valid	../wechat/TianTianQunFa.php	/^    public function valid()$/;"	f
+valid	../wechat/WenDa.php	/^    public function valid()$/;"	f
+valid	../wechat/index_bak.php	/^    public function valid()$/;"	f
+valid	../wechat/jiaohao_demo.php	/^    public function valid()$/;"	f
+valid	../wechat/wx_sample.php	/^    public function valid()$/;"	f
+waitTime	../wechat/jiaohao_demo.php	/^					$waitTime=$num*15+5;$/;"	v
+wechatCallbackapiTest	../wechat/KeFu_1.php	/^class wechatCallbackapiTest$/;"	c
+wechatCallbackapiTest	../wechat/TianTianQunFa.php	/^class wechatCallbackapiTest$/;"	c
+wechatCallbackapiTest	../wechat/WenDa.php	/^class wechatCallbackapiTest$/;"	c
+wechatCallbackapiTest	../wechat/index_bak.php	/^class wechatCallbackapiTest$/;"	c
+wechatCallbackapiTest	../wechat/jiaohao_demo.php	/^class wechatCallbackapiTest$/;"	c
+wechatCallbackapiTest	../wechat/wx_sample.php	/^class wechatCallbackapiTest$/;"	c
+wechatObj	../wechat/KeFu_1.php	/^$wechatObj = new wechatCallbackapiTest();$/;"	v
+wechatObj	../wechat/TianTianQunFa.php	/^$wechatObj = new wechatCallbackapiTest();$/;"	v
+wechatObj	../wechat/WenDa.php	/^$wechatObj = new wechatCallbackapiTest();$/;"	v
+wechatObj	../wechat/index_bak.php	/^$wechatObj = new wechatCallbackapiTest();$/;"	v
+wechatObj	../wechat/jiaohao_demo.php	/^$wechatObj = new wechatCallbackapiTest();$/;"	v
+wechatObj	../wechat/wx_sample.php	/^$wechatObj = new wechatCallbackapiTest();$/;"	v
+xmlTpl	../wechat/index_bak.php	/^        $xmlTpl = "<xml>$/;"	v
+xmlTpl	../wechat/jiaohao_demo.php	/^        $xmlTpl = "<xml>$/;"	v

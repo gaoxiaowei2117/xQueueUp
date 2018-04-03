@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>diyizhan</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdn.bootcss.com/jquery/1.12.1/jquery.min.js"></script>
+    <style>
+        .header{
+            width: 100%;
+            height:50px;
+            color: white;
+            background-color: #363E4F;
+            text-align: center;
+            font-size:20px;
+            line-height: 50px;
+        }
+        .content{
+            width: 100%;
+            padding: 0 3%;
+        }
+        .currentInfo{
+            font-size: 22px;
+            text-align: center;
+            margin: 20px 0;
+        }
+        #btn01{
+            margin: 0 12px 20px 84px;
+        }
+        #btn02{
+            margin-bottom: 20px;
+        }
+        #btn03{
+            margin-bottom: 20px;
+        }
+    </style>
+    <script>
+        $(document).ready(function() {
+        //window.onload=function () {
+            var getTableData = function () {
+                var url = 'http://15324277935.applinzi.com/wechat/jiaohao2.php?id=1';
+                $.get(url,function (data) {
+                    var res = JSON.parse(data);
+                    console.log(res)
+                    var html ='';
+                    if(res.length){
+                        for(var i=0;i<res.length;i++){
+                            html += '<tr><th scope="row">'+res[i].id+'</th><td>'+res[i].carId+'</td><td>'+res[i].phoneNum+'</td></tr>';
+                        }
+                    }
+                    $('#table').html(html);
+                })
+            };
+            var getNextData = function () {
+                var url = 'http://15324277935.applinzi.com/wechat/jiaohao2.php?id=3';
+                $.get(url,function (data) {
+                    var res = JSON.parse(data);
+                    console.log(res)
+                    if(res){
+                        $('#currentId').text(res.id);
+                        $('#currentNum').text(res.carId)
+                    }
+
+                })
+            };
+            var getCurrentData = function () {
+                var url = 'http://15324277935.applinzi.com/wechat/jiaohao2.php?id=2';
+                $.get(url,function (data) {
+                    var res = JSON.parse(data);
+                    console.log(res)
+                    if(res){
+                        $('#currentId').text(res.id);
+                        $('#currentNum').text(res.carId)
+                    }
+
+                })
+            };
+            //getCurrentData();
+            //getTableData();
+            $('#btn01').on('click',function () {
+                getNextData();
+            })
+            $('#btn02').on('click',function () {
+                getTableData();
+            })
+            $('#btn03').on('click',function () {
+                getCurrentData();
+            })
+        }
+    </script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">第一站洗车</div>
+        <div class="content">
+            <div class="currentInfo">
+                <span class="badge badge-info">当前序号</span>
+                <span id="currentId" class="badge badge-light"></span>
+                <span class="badge badge-info">车牌号</span>
+                <span id="currentNum" class="badge badge-light"></span>
+            </div>
+            <button id="btn02" type="button" class="btn btn-primary ">刷新</button>
+            <button id="btn01" type="button" class="btn btn-primary ">下一个</button>
+            <button id="btn03" type="button" class="btn btn-primary ">当前</button>
+            <table class="table">
+                <thead class="thead-light">
+                <tr>
+                    <th scope="col">序号</th>
+                    <th scope="col">车牌号</th>
+                    <th scope="col">手机号</th>
+                </tr>
+                </thead>
+                <tbody id="table">
+                <!--<tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                </tr>-->
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

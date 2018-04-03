@@ -1,0 +1,54 @@
+<?php
+$id=$_GET["id"];
+$change=$_GET["change"];
+$change=intval($change);
+if($id=="1"){
+    $c = new SaeCounter();
+    $c->incr('jiao');
+    $num=$c->get('jiao');
+    //发送客服消息
+    //echo $num;//加1后返回当前计数
+    $mysql = new SaeMysql();
+    $sql="SELECT * FROM `jiaohao` where `id`>= '{$num}'";
+    $account=0;
+    //while(!empty($sql[$account]))
+    $data = $mysql->getData($sql);
+    //echo $data;
+    while(count($data,COUNT_NORMAL) > $account && $account <= 3)
+    {
+        $user=$data[$account][openid];
+        $id=$data[$account][id];
+        include("token.php");
+        if(0 == $account)
+        { 
+            $contentStr="现在轮到你了，请尽快和服务员联系";
+        }
+        else
+        {
+            $contentStr="前面还有".$account."辆车";
+        }
+        $contentStr=urlencode($contentStr);//转码urlencode，避免JSON转码成Unicode
+        $a=array("content"=>"{$contentStr}");
+        $b=array("touser"=>"{$user}","msgtype"=>"text","text"=>$a);
+        $post=json_encode($b);
+        $post=urldecode($post);//解码
+        $url = "https://api.weixin.qq.com/cgi-bin/message/custom/send?access_token={$token}";
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, $url);
+        curl_setopt($ch, CURLOPT_POST, 1);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+        curl_exec($ch);
+        curl_close($ch);
+        //$num++;
+        $account++;
+        //$sql="SELECT * FROM `jiaohao` where `id`= '{$num}'";
+    }
+    return $data;
+}
+if(!empty($change)){
+    $c = new SaeCounter();
+    $c->set('jiao',$change);
+}
+//修改后返回计数
+?>
